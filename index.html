@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portal</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Menu Overlay -->
+    <div class="overlay overlay-slide-left" id="overlay">
+      <!-- Menu Items -->
+      <nav>
+        <ul>
+          <li id="nav-1"><a href="#">Home</a></li>
+          <li id="nav-2"><a href="#about">About</a></li>
+          <li id="nav-3"><a href="#skills">Skills</a></li>
+          <li id="nav-4">
+            <a href="#projects">Projects</a>
+          </li>
+          <li id="nav-5" class="slide-out-5"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Menu Bars -->
+    <div class="menu-bars" id="menu-bars">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <!-- Sections -->
+    <!-- First Section -->
+    <section id="home">
+      <p>Welcome to My Website Portal</p>
+    </section>
+    <!-- End of First Section -->
+    <!-- Second Section -->
+    <section id="about" class="section-1">
+      <h1 class="section-heading">About Me</h1>
+      <div class="services">
+        <div class="service">
+          <i class="far fa-lightbulb"></i>
+          <h2 class="service-heading">Creative</h2>
+        </div>
+        <div class="service">
+          <i class="fas fa-cut"></i>
+          <h2 class="service-heading">Problem Solving</h2>
+        </div>
+        <div class="service">
+          <i class="fas fa-tachometer-alt"></i>
+          <h2 class="service-heading">Fast</h2>
+        </div>
+        <div class="service">
+          <i class="fas fa-rocket"></i>
+          <h2 class="service-heading">Dynamic</h2>
+        </div>
+      </div>
+    </section>
+    <!-- End of Second Section -->
+    <!-- Third Section -->
+    <section id="skills" class="section-2">
+      <h1 class="section-heading">My Strengths and Skills</h1>
+      <div class="progress-bars-wrapper">
+        <div class="progress">
+          <p class="progress-text">
+            HTML
+            <span></span>90%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress">
+          <p class="progress-text">
+            CSS
+            <span></span>85%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress">
+          <p class="progress-text">
+            JavaScript
+            <span></span>80%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress">
+          <p class="progress-text">
+            ReactJS
+            <span></span>25%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress">
+          <p class="progress-text">
+            NodeJS
+            <span></span>22%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Third Section -->
+    <!-- Start of Fourth Section -->
+    <section id="projects" class="section-3">
+      <h1 class="section-heading">Some Projects Highlights</h1>
+      <div class="projects-wrapper center">
+        <div class="project">
+          <div class="project-text">
+            <h2 class="project-name">Audio Music Player</h2>
+            <h4 class="project-technologies" id="project-id">
+              HTML / CSS / JS
+            </h4>
+          </div>
+          <img src="images/music-player.jpg" class="project-img" />
+          <a
+            href="https://github.com/sujan66root/musicPlayer"
+            class="project-link"
+            target="_blank"
+            >Go to Github
+          </a>
+        </div>
+        <div class="project">
+          <div class="project-text">
+            <h2 class="project-name">Quote Generator</h2>
+            <h4 class="project-technologies">JavaScript</h4>
+          </div>
+          <img src="images/quote-generator.png" class="project-img" />
+          <a
+            href="https://github.com/sujan66root/randomQuoteGenerator"
+            class="project-link"
+            target="_blank"
+            >Go to Github</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End of Fourth Section -->
+    <section id="contact" class="section-4">
+      <h1 class="section-heading">Contact Me</h1>
+      <form id="form" class="contact-form center">
+        <input id="fullname" type="text" class="form-1" placeholder="Name" />
+        <small class="error hide">Name Is Required</small>
+        <input id="email" type="email" class="form-2" placeholder="Email" />
+        <small class="error hide">Email Is Invalid</small>
+        <textarea id="message" placeholder="Message" class="form-3"></textarea>
+        <small class="error hide">Message Is Required</small>
+        <input type="submit" value="SUBMIT" class="contact-form-btn" />
+      </form>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
