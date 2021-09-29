@@ -101,7 +101,7 @@ nav li a:hover::before {
 .bar3 {
   width: 35px;
   height: 2px;
-  background-color: #ec25b8;
+  background-color: #020000;
   margin: 8px 0;
   transition: 0.4s;
 }
@@ -132,12 +132,12 @@ section {
   align-items: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--primaryColor);
 }
 
 section#home {
-  background-image: url(images/top-bg.jpg);
+  background-image: url(images/bg.jpg);
   background-position: center center;
+  background-size: cover;
 }
 
 section#home p {
@@ -146,10 +146,10 @@ section#home p {
   top: 1.5rem;
   left: 1.5rem;
   text-decoration: none;
-  font-size: 1.35rem;
+  font-size: 3rem;
   padding-bottom: 5px;
-  color: #fff;
-  border-bottom: 1px solid #fff;
+  color: #020000;
+  border-bottom: 1px solid #020000;
 }
 
 section#about {
